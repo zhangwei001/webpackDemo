@@ -1,4 +1,5 @@
-require("./a.js")
-function mian(){
-	return "this is mian fucntion"
-}
+require.ensure(["./a"], function(require) {
+    var a = require("./a");
+    var b = require("./People");
+    
+});

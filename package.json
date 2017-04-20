@@ -1,0 +1,18 @@
+{
+  "name": "vuedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "rimraf dist &&  webpack --config webpack.config.js --progress --colors --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "vue": "^2.2.6",
+    "vue-router": "^2.4.0",
+    "webpack": "^2.4.1"
+  }
+}
